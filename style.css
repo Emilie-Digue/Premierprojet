@@ -44,19 +44,16 @@ a {
     border-top: 4px #0065FC;
 }
 form {
-  width: Fixed (377px);
-  height: Fixed (49px);
-  border-radius: 15px;
-  border: 1px;
-  gap: 24px;
-  
+  display:flex;
+  height: 49px;
 }
 
 
-.fa-location-dot {
+i.fa-location-dot {
+    display: flex;
     border: 1px solid;
-    gap: 20px;
-    height: 49px;
+    justify-content: center;
+    align-items: center;
     width: 50px;
     border-radius: 10px 0px 0px 10px;
     background-color: #FFFFFF;
@@ -65,16 +62,10 @@ form {
 .ville {
     border: 1px solid;
     width: 227px;
-    height: 49px;
-    gap: 35px;
-
 }
 .rechercher {
     border: 1px solid;
     width: 100px;
-    height: 49px; 
-    padding: 0px, 50px, 0px, 50px;
-    gap: 35px;
     color: white;
     background-color: #0065FC;
     border-radius: 0px 10px 10px 0px;
@@ -83,17 +74,19 @@ form {
     display: flex;
     font-weight: bold;
     margin: 10px;
+    align-items: center;
 }
 
 .filtre {
     display: flex;
-    width: Hug (167px);
-    height: Fixed (50px);
+    height: 50px;
     padding: 4px, 19px, 4px, 19px;
     border-radius: 25px;
     border: 2px solid;
     border-color: #D9D9D9;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 173px;
 }
 .fa-money-bill-1 {
     margin-right: 1px;
@@ -227,9 +220,32 @@ footer {
     display: flex;
     justify-content: space-around;
     background-color: rgb(223, 222, 222);
+    margin-top: 20px;
     
 }
 ul {
     display: flex;
     flex-direction: column;
+}
+@media screen and (max-width: 1024px){
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .hebergement{
+    width: 90%;
+  }
+  .card{
+    height: 250px;
+  }
+  .populaire {
+    width: 90%;
+    height: 300px;
+
+  }
+  .cards_populaire{
+    display: flex;
+    flex-direction: row;
+}
 }
