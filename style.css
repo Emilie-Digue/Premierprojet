@@ -3,6 +3,8 @@ h1 {
     font-weight: bold;
     padding-top: 50px;
 }
+
+
 h3 {
     font-size: 1em;
     font-weight: bold;
@@ -151,19 +153,21 @@ i.fa-location-dot {
     width: 65%;
     height: 650px;
     border-radius: 10px;
+    padding-left: 20px;
   }
   .populaire {
     background-color: rgb(223, 222, 222);
-    width: 32%;
+    width: 30%;
     height: 650px;
     border-radius: 10px;
+    padding-left: 10px;
   }
   .cards {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
   }
- 
+
   .card img {
     object-fit: cover;
     padding: 10px 10px 1px 10px;
@@ -201,6 +205,9 @@ i.fa-location-dot {
     background-color: white;
     box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
   }
+  .card_populaire:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   }
   .img_populaire {
     object-fit: cover;
     padding-left: 10px ;
@@ -226,6 +233,9 @@ i.fa-location-dot {
     background-color: white;
     box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
   }
+  .card_activite:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
   .img_activite {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
@@ -249,6 +259,7 @@ ul {
 
 .activites_marseille {
   margin-top: 30px;
+  padding-left: 20px;
 }
 
 @media screen and (max-width: 1024px){
