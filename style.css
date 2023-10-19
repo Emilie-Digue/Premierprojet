@@ -263,24 +263,43 @@ ul {
 }
 
 @media screen and (max-width: 1024px){
+  body {
+    margin: 10px;
+  }
   .cards {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
+  
   .hebergement{
-    width: 90%;
+    width: 98%;
+    Height: 700px;
+    
   }
   .card{
     height: 250px;
   }
   .populaire {
-    width: 90%;
+    width: 99%;
     height: 300px;
-
+    margin-top: 20px;
   }
   .cards_populaire{
     display: flex;
     flex-direction: row;
+    
 }
+.card_populaire{
+    width: 30%;
+    height: 156px;
+}
+.fa-star {
+  padding-top: 1px;
+  padding-left: 2px;
+}
+.card_activite{
+  height: 280px;
+}
+
 }
