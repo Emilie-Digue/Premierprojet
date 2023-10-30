@@ -330,7 +330,7 @@ article {
 
 /****** Activités ***********/
 
-.activites .card{
+.activites .card {
   width: 25%;
   height: 400px;
   border-radius: 20px; 
@@ -403,6 +403,7 @@ ul {
     .populaires {
         width: 100%;
         margin-top: 50px;
+        height: 252px;
     }
   
     .populaires-cards {
@@ -415,13 +416,21 @@ ul {
     .populaires-cards a {
         width: 30%;
     }
-  
+  .populaires-cards .card {
+    margin-top: 15px;
+  }
     .populaires-cards .card-title {
         font-size: 14px;
     }
   
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+    .activites_marseille {
+      margin-top: 50px;
+    }
+    .activites {
+      margin-top: 20px;
     }
     .activites .card {
       height: 300px;
@@ -430,13 +439,19 @@ ul {
     .activites .container {
       padding-top: 0px;
     }
+    footer {
+      margin-top: 60px;
+    }
+    .footer h3 {
+      font-weight: bold;
+    }
   }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
- 
+
   .main-container {
-    width: 90%;
+    padding: 0;
     max-width: 767.98px;
     box-sizing: border-box;
   }
@@ -446,24 +461,84 @@ ul {
     justify-content: space-between;
     height: 80px;
   }
-  nav {
-    display: flex;
-    justify-content: space-between;
-    }
-
-  nav a {
-      text-decoration: none;
-      color: black;   
+ nav {
+  align-self: center;
+  gap: 80px;
+ }
+  nav a { 
+    border-top: none;
       border-bottom: 3px solid white;
       padding-bottom: 10px; 
+
     }
   .nav:hover {
       color: #0065FC;
       border-bottom: 3px solid #0065FC;
+      border-top: none;
+    }
+
+    h1 {
+      margin-left: 10px;
+    }
+    p {
+      margin-left: 10px;
+    }
+    form {
+      margin-left: 10px;
     }
     .rechercher {  
         width: 49px;
        }
+    .liste-filtres {
+      flex-wrap: wrap;
+    }
+    .filtre {
+      width: 130px;
+    }
+    .hebergements-and-populaires {
+      flex-direction: column-reverse;
+  }
+  .hebergements-and-populaires section {
+    border-radius: 0;
+    padding: 10px;
+   }
+  .populaires section {
+    margin-top: 10px;
+    
+  }
+  
+ .populaires-cards {
+  flex-direction: column;
+  padding-left: 0px;
+ }
+ .populaires-cards .card {
+  height: 136px;
+  width: 335px;
+ }
+
+ .hebergements section {
+  background-color: white;
+ }
+ .card_hebergement {
+  flex-direction: column;
+ }
+ .card_hebergement .card {
+  width: 335px;
+ }
+
+ .activites {
+  flex-direction: column;
+  margin: 5px;
+ }
+ .activites .card {
+  width: 315px;
+  height: 200px;
+ }
+
+ .footer {
+  display: flex;
+  flex-direction: column;
+ }
    /****** A continuer en mettant la loupe à la place de rechercher et continuer le responsive mobile ***********/      
 }
 
