@@ -483,12 +483,14 @@ ul {
   align-self: center;
   gap: 80px;
   margin-top: 10px; 
+  width: 100%;
  }
   nav a { 
     border-top: none;
       border-bottom: 3px solid white;
       padding-bottom: 10px;
       width: 50%;
+      text-align: center;
     }
   .nav:hover {
       color: #0065FC;
@@ -498,16 +500,17 @@ ul {
     }
 
     .en_tete h1 {
-      margin-left: 10px;
-      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
     }
     .en_tete p {
-      margin-left: 10px;
-      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
     }
     form {
       width: 100%;
-      justify-content: center;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     .rechercher {
@@ -518,22 +521,27 @@ ul {
       display: flex;
       justify-content: center;
       align-items: center;
+      border-radius: 10px;
     }
     
 
     .liste-filtres {
       flex-wrap: wrap;
-      justify-content: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 100%;
     }
-    .filtre {
-      width: 130px;
-    }
+   .filtre {
+    width: 40%;
+   }
+   
     .titre_filtres {
-      margin-left: 10%;
+      padding-left: 20px;
+      padding-right: 20px;
     }
     .info {
-      display: flex;
-      justify-content: center;
+      padding-left: 20px;
+      padding-right: 20px;
     }
     .hebergements-and-populaires {
       flex-direction: column-reverse;
@@ -541,6 +549,9 @@ ul {
   .hebergements-and-populaires section {
     border-radius: 0;
     padding: 10px;
+   }
+   .hebergements-and-populaires .hebergements{
+    background-color: white;
    }
   .populaires section {
     margin-top: 10px; 
