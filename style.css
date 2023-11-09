@@ -92,7 +92,7 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   align-self: flex-start;
-  gap: 30px;
+  
   }
 
 li {
@@ -104,6 +104,7 @@ nav a {
   color: black;   
   border-top: 3px solid white;
   padding-top: 10px; 
+  padding-right: 20px;
 }
 .nav:hover {
   color: #0065FC;
@@ -493,6 +494,7 @@ ul {
       padding-bottom: 10px;
       width: 50%;
       text-align: center;
+      padding-right: 0;
     }
   .nav:hover {
       color: #0065FC;
