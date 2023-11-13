@@ -92,7 +92,7 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   align-self: flex-start;
-  
+  gap: 20px; 
   }
 
 li {
@@ -104,7 +104,7 @@ nav a {
   color: black;   
   border-top: 3px solid white;
   padding-top: 10px; 
-  padding-right: 20px;
+ 
 }
 .nav:hover {
   color: #0065FC;
@@ -409,8 +409,8 @@ ul {
     .hebergements-and-populaires {
         flex-direction: column;
     }
-  .titre_filtrs {
-    font-weight: bold 2em;
+  .titre_filtres {
+    font-weight: bold;
   }
     .hebergements {
         width: 100%;
@@ -484,7 +484,7 @@ ul {
   }
  nav {
   align-self: center;
-  gap: 80px;
+ 
   margin-top: 10px; 
   width: 100%;
  }
@@ -521,7 +521,6 @@ ul {
       display: none;
     }
     i.fa-magnifying-glass {
-      display: block;
       display: flex;
       justify-content: center;
       align-items: center;
