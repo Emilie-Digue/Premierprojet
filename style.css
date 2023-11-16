@@ -388,6 +388,9 @@ footer {
   margin-top: 30px;
   
 }
+footer h2 {
+  font-size: 1.1em;
+}
 ul {
   display: flex;
   flex-direction: column;
@@ -535,7 +538,7 @@ ul {
       width: 100%;
     }
    .filtre {
-    width: 40%;
+    width: 35%;
    }
    
     .titre_filtres {
@@ -589,7 +592,8 @@ background: none;
   width: 100%;
  }
 .activites_marseille{
-  padding-left: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
 }
  .activites {
   flex-direction: column;
@@ -603,7 +607,7 @@ background: none;
   display: flex;
   flex-direction: column;
  }
-   /****** A continuer en mettant la loupe à la place de rechercher et continuer le responsive mobile ***********/      
+         
 }
 
 
